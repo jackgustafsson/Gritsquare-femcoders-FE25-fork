@@ -170,6 +170,7 @@ a {
   z-index: 1000;
 }
 
+/*Jack: emojis stylad här*/
 #emojis {
   border: 4px solid #ffbd59;
   border-radius: 20px;
@@ -187,6 +188,7 @@ a {
   margin-bottom: 8px;
   border: 1px solid #ddd;
   border-radius: 4px;
+  margin-right: 64px; /*Jack: jag ändrade här också så att det blev jämnt på båda inputs*/
 }
 
 #searchGifBtn {

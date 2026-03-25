@@ -1,3 +1,4 @@
+//Jacks feature (do not touch! ;)
 const emojiCodes = [0x1f604, 0x1f602, 0x1f60d, 0x1f60e, 0x1f525, 0x1f680]
 
 const selectEl = document.querySelector("#emojis");
@@ -5,8 +6,7 @@ selectEl.classList.add("emojisSelect");
 
 const defaultOption = document.createElement("option")
 defaultOption.value = ""
-//defaultOption.textContent = String.fromCodePoint(0x1f604)
-defaultOption.textContent = "Välj emoji"
+defaultOption.textContent = String.fromCodePoint(0x1f604)
 defaultOption.disabled = true
 defaultOption.selected = true
 
